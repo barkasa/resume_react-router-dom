@@ -1,0 +1,15 @@
+.page {
+  padding-top: 90px;
+  padding-left: 250px;
+  padding-right: 250px;
+  background-color: #ffffff;
+}
+
+.title {
+  margin-bottom: 55px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  color: #21243d;
+}

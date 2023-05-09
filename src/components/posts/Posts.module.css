@@ -1,0 +1,35 @@
+.posts_wrapper {
+  max-width: 681px;
+  min-height: 118px;
+  background-color: #ffffff;
+
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 44px;
+}
+
+.title a {
+  color: #2d2d2d;
+  text-decoration: none;
+}
+
+.posts_description {
+  margin-bottom: 16px;
+}
+
+.tags {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #8695a4;
+}
+
+.posts_date {
+  font-style: italic;
+}

@@ -1,0 +1,40 @@
+.header_wrapper {
+  padding: 0 60px 0 0;
+  align-items: center;
+  text-align: end;
+  background-color: #ffffff;
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+}
+.header_wrapper a {
+  margin-left: 35px;
+  text-decoration: none;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.header_wrapper a:first-child {
+  margin-left: 0;
+}
+.header_wrapper a:hover {
+  color: #ff6464;
+}
+.burger_menu {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header_wrapper {
+    display: none;
+  }
+  .burger_menu {
+    display: block;
+  }
+}

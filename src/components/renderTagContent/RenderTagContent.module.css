@@ -1,0 +1,26 @@
+.img {
+  width: 100%;
+  height: auto;
+}
+
+.title_h1 {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 60px;
+
+  color: #21243d;
+}
+
+.title_h2 {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 60px;
+
+  color: #21243d;
+}
+.p {
+}

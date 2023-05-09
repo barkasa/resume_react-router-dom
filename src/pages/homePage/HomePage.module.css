@@ -1,0 +1,232 @@
+.avatar {
+  width: 243px;
+  height: 243px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.preset_wrapper {
+  padding-bottom: 73px;
+  padding-top: 140px;
+
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.about_wrapper {
+  margin: 0 auto;
+  width: 856px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.about {
+  margin-bottom: 40px;
+  max-width: 506px;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  color: #21243d;
+}
+.text_about {
+  margin-bottom: 47px;
+  max-width: 497px;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #21243d;
+}
+.download_button {
+  width: 208px;
+  height: 47px;
+  background: #ff6464;
+  border-radius: 2px;
+  border: none;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.download_button:hover {
+  background-color: #979797;
+  color: #000000;
+}
+
+/* /// */
+
+.wrapper_posts {
+  height: 329px;
+  background-color: #edf7fa;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper_posts > div {
+  padding-left: 150px;
+  padding-right: 150px;
+
+  width: 100%;
+}
+
+.post_navigation {
+  height: 50px;
+  width: 100%;
+  padding-top: 10px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post_navigation > p {
+  color: #21243d;
+  font-family: "Heebo";
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.post_navigation a {
+  color: #00a8cc;
+  font-family: "Heebo";
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.container_posts {
+  height: 350px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.wrapper_posts {
+  height: 350px;
+  background-color: #edf7fa;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper_posts > div {
+  padding-left: 150px;
+  padding-right: 150px;
+
+  width: 100%;
+}
+
+.post_navigation {
+  height: 50px;
+  width: 100%;
+  padding-top: 10px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post_navigation > p {
+  color: #21243d;
+  font-family: "Heebo";
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.post_navigation a {
+  color: #00a8cc;
+  font-family: "Heebo";
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.container_posts {
+  height: 350px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.wrapper_works {
+  height: 1000px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.container_title {
+  height: 80px;
+  display: flex;
+  align-items: center;
+
+  color: #21243d;
+  font-family: "Heebo";
+  font-weight: 400;
+  font-size: 22px;
+}
+
+@media (max-width: 1300px) {
+  .wrapper_home {
+  }
+  .wrapper_about_me {
+    height: auto;
+    flex-direction: column-reverse;
+    padding: 0;
+  }
+
+  .container_foto {
+    margin-bottom: 40px;
+  }
+
+  .container_about_me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .wrapper_posts {
+    height: auto;
+  }
+
+  .wrapper_posts > div {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .container_posts {
+    height: auto;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .post_navigation a {
+    display: none;
+  }
+
+  .post_navigation {
+    justify-content: center;
+  }
+
+  .wrapper_works {
+    height: auto;
+    padding: 0;
+  }
+
+  .container_title {
+    display: flex;
+    justify-content: center;
+  }
+}

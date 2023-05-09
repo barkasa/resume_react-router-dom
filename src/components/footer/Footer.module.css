@@ -1,0 +1,27 @@
+.footer_wrapper {
+  padding: 51px 0 54px 0;
+  height: 182px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #ffffff;
+}
+.icons_wrapper {
+  margin-bottom: 26px;
+}
+.icons_wrapper img {
+  width: 30px;
+  height: 30px;
+  margin: 0 20px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.icons_wrapper p {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #21243d;
+}
